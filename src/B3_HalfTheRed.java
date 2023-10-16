@@ -26,6 +26,9 @@ public class B3_HalfTheRed extends World {
            if(blue>240 && red<80){
                     plane.setPixelColor(200, 200, 0);
                 }
+                if(green>240 && red<80){
+                    plane.setPixelColor(200, 200, 0);
+                }
 
 
 
