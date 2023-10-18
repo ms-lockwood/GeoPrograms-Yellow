@@ -20,10 +20,10 @@ public class B3_HalfTheRed extends World {
                 plane.teleport(col+20, row+20);
                 plane.setPixelColor(red,row/3,col/4);
 
-           if(red>240 && green<45 && green>25 && col<631){
-               plane.setPixelColor(0,160,250);
-           }
-           if(blue>240 && red<80){
+                if(red>240 && green<45 && green>25 && col<631){
+                    plane.setPixelColor(0,160,250);
+                }
+                if(blue>240 && red<80){
                     plane.setPixelColor(200, 200, 0);
                 }
                 if(green>240 && red<80){
@@ -41,7 +41,7 @@ public class B3_HalfTheRed extends World {
 
             }
         }
-        
+
     }
 }
 
